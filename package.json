@@ -31,6 +31,6 @@
     "eslint-config-next": "15.1.1",
     "postcss": "latest",
     "sass": "^1.69.5",
-    "tailwindcss": "latest"
+    "tailwindcss": "^4.1.16"
   }
 }
