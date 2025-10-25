@@ -22,10 +22,9 @@ module.exports = {
           "2xl": "4rem",
           "3xl": "5rem",
         },
-      },
-      // This is now at the correct level
-      screens: {
-        "4k": "1980px",
+        screens: {
+          "4k": "1980px",
+        },
       },
     },
   },
