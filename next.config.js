@@ -1,6 +1,14 @@
+const { webpack } = require('next/dist/compiled/webpack/webpack')
 const path = require('path')
- 
+
 module.exports = {
+  webpack: (config, {isServer}) => {
+    if (!isServer) {
+      config.resolve.alias['@'] = path.resolve(__dirname, 'src');
+    }
+    return config;
+  
+  },
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },

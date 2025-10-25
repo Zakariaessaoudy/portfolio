@@ -1,12 +1,17 @@
 // @flow strict
+"use client";
 
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import experience from '../../../assets/lottie/code.json';
-import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
+import dynamic from 'next/dynamic';
 
+const AnimationLottie = dynamic(
+  () => import('../../helper/animation-lottie'),
+  { ssr: false } // This is the key!
+);
 function Experience() {
   return (
     <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
