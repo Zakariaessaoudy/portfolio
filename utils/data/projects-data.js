@@ -6,7 +6,7 @@ export const projectsData = [
     tools: ['React.js', 'Tailwind CSS', 'HTML', 'JavaScript', 'TypeScript', 'Supabase', 'PostgreSQL', 'MySQL', 'AWS S3'],
     role: 'Full Stack Developer',
     code: '',
-    demo: '',
+    demo: 'vppadvisory.com',
     },
     {
     id: 2,
@@ -15,10 +15,19 @@ export const projectsData = [
     tools: ['Java', 'Spring Boot', 'PostgreSQL', 'Maven', 'REST API', 'Agile Development'],
     role: 'Backend Developer',
     code: '',
-    demo: '',
+    demo: 'code.sefault.com',
     },
     {
-    id: 3,
+      id: 3,
+      name: 'Biologists In Action Club (BAC) Website',
+      description: "Welcome to the BAC Volunteering Club — a vibrant hub where science, culture, and charity meet. Join us in engaging with humanitarian initiatives, cultural events, and scientific workshops that empower students and bring positive impact to communities.",
+      tools: ['Next.js', 'TypeScript', 'React', 'Vercel'],
+      role: 'Web Developer',
+      code: '',
+      demo: 'https://club-bac.vercel.app/'
+    },
+    {
+    id: 4,
     name: 'E-Commerce Web Application',
     description: "Developed a full-stack e-commerce website using Spring Boot for backend and Next.js for frontend. The platform includes product, order, payment, delivery, and authentication management with JWT. Focused on performance optimization and secure API design.",
     tools: ['Spring Boot', 'Next.js', 'JWT', 'REST API', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
@@ -27,7 +36,7 @@ export const projectsData = [
     demo: '',
     },
     {
-    id: 4,
+    id: 5,
     name: 'School Management Application',
     description: "Java Swing application for managing students, absences, grades, and teachers. Integrated automatic PDF report generation using Apache PDFBox and MVC architecture with MySQL. Developed as part of academic coursework.",
     tools: ['Java', 'Swing', 'MySQL', 'PDFBox', 'MVC Pattern'],
